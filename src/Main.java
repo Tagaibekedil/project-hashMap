@@ -31,12 +31,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Map<String, String> map = new HashMap<>(100);
-        map.containsKey("2+2");
         int first;
         String operation;
         int second;
         int sum;
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println("введите первое число: ");
             first = scanner.nextInt();
             System.out.println("введите операцию: ");
