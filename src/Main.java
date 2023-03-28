@@ -2,7 +2,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.lang.StringBuilder;
-
 public class Main {
     /*
 1. Scanner
@@ -20,14 +19,12 @@ public class Main {
         builder.append(second);
         return builder.toString();
     }
-
     static String builder1(int sum) {
         StringBuilder builder = new StringBuilder();
         // sum = first+second;
         builder.append(sum);
         return builder.toString();
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Map<String, String> map = new HashMap<>(100);
@@ -64,7 +61,6 @@ public class Main {
                     map.put(builder(first, operation, second), String.valueOf(sum));
                     break;
             }
-
         }
     }
 }
